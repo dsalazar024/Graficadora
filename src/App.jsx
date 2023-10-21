@@ -10,8 +10,8 @@ const App = () => {
   const funcion = `${m}x${b >= 0 ? "+" : ""}${b}`;
 
   return (
-    <div>
-      <h1>Graficadora de Funciones</h1>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "100vh" }}>
+      <h1 style={{marginTop: "13rem"}}>Graficadora de Funciones</h1>
       <div>
         <span>X</span>
         <input

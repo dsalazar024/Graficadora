@@ -1,4 +1,3 @@
-// src/components/Graficadora.js
 import React from "react";
 import Plot from "react-plotly.js";
 
@@ -51,7 +50,6 @@ const Graficadora = ({ funcion }) => {
         ...intersecciones,
       ]}
       layout={{
-        title: "Graficadora de Funciones Lineales",
         xaxis: { zeroline: true },
         yaxis: { zeroline: true },
       }}
